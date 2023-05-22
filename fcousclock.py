@@ -5,7 +5,7 @@ def continuous_activity():
     while True:
         # 执行持续的活动
         print("进行持续活动...")
-        time.sleep(85000)  # 假设每次活动间隔为 5 秒
+        time.sleep(85000)  # 假设每次活动间隔为 85000 秒
     
         # 检查停止条件
         # 如果满足停止条件，则跳出循环
@@ -15,7 +15,7 @@ def continuous_activity():
 def stop_condition():
     # 编写你自己的停止条件判断逻辑
     # 返回 True 表示满足停止条件，False 表示继续进行活动
-    # 在这个示例中，假设活动持续 5 次后停止
+    # 在这个示例中，假设活动持续 7200 次后停止
     if stop_condition_counter >= 7200:
         return True
     else:
